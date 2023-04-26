@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 7577271768079790241}
   - component: {fileID: 7577271768079790242}
   - component: {fileID: 7577271768079790243}
+  - component: {fileID: -5128972979384668027}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Monster
@@ -166,6 +167,19 @@ MonoBehaviour:
   EnemyPivot: {fileID: 7577271766614172467}
   firePoint: {fileID: 7577271768210519546}
   fireRate: 1
+--- !u!114 &-5128972979384668027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7342707250301744337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ca66178e2e8f14ca5c144c042fdcc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hp: 5
 --- !u!1 &7577271766614172467
 GameObject:
   m_ObjectHideFlags: 0
