@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
+    protected FxManager FxManager => FxManager.Instance;
+
+    protected AudioManager AudioManager => AudioManager.Instance;
+
+    [SerializeField] protected SoundProfileData soundProfileData;
+
     public int Hp = 5;
 
     public void Damaged(int Damage)
