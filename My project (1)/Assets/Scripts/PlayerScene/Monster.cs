@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    protected FxManager FxManager => FxManager.Instance;
+    // protected FxManager FxManager => FxManager.Instance;
 
     protected AudioManager AudioManager => AudioManager.Instance;
 

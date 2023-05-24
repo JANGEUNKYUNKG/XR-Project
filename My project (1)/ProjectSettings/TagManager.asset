@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - GameManager
   - UIHealthBar
+  - NestedScrollManager
   layers:
   - Default
   - TransparentFX

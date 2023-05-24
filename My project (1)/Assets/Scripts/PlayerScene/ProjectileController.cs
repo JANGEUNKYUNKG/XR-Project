@@ -12,7 +12,7 @@ public class ProjectileController : MonoBehaviour
 
     public void FireProjectile()
     {
-        AudioManager.PlayOneShot(soundProfileData);
+        // AudioManager.PlayOneShot(soundProfileData);
         GameObject temp = (GameObject)Instantiate(Projectile);
 
         temp.transform.position = this.gameObject.transform.position;
